@@ -1,0 +1,50 @@
+
+#h-news_img {
+height: 600px;
+    position: relative;
+    width: 100%;
+}
+.hidden{overflow:hidden}
+#h-img_list ul li img{ 
+    width: 2000px;
+    min-width: 1024px;
+    height: 600px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -1000px;
+    top: 0px
+}
+.container2{
+    width: 1600px;
+    min-width:1024px;
+    margin: 0 auto;
+}
+.h-imgs {
+    display: none;
+    height: 600px;
+    position: relative;
+}
+#h-num {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+.h-num_list {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    width: 10px;
+    border-radius:50%; 
+    height: 10px;
+    background-color:white ;
+    /* opacity 不透明度 */
+    opacity: 0.8;
+
+}
+
+.visible{
+    display: block;
+}
+.opaque{
+    opacity: 1;background-color: black;}

@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    height:800px;
+}
+.container{
+    width:1024px;
+    margin:0 auto;
+    min-width: 1024px;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    visibility:hidden;
+    clear:both;
+}
+
+
+.left{
+    float:left;
+}
+.right {
+    float: right;
+}
+
+.img_list{
+    display:none;
+}
+.img_list img{
+    width:370px;
+    height:320px;
+    border-radius:16px;
+}
+#num{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+}
+.num_list{
+    display: inline-block;
+    width: 20px;
+    color: white;
+    line-height: 20px;
+    margin-right: 10px;
+    background-color: orange;
+    opacity: 0.5;
+}
+.visible{
+    display: block;
+}
+.opaque{
+    opacity: 1;
+}
+
+.btnEnabled{
+    background-color:#d79906;
+    color:white;
+    cursor:pointer;
+}
+.pro a{
+    color:red;
+}
+.warning{
+    border:1px solid red;
+}
+.font{
+    color:#d79906;
+}
+
+
+
+.logo_img{
+    text-align: left;
+    width: 85px;
+    height: 70px;
+    float: left;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    min-width: 1024px;
+    background-color: #010101;
+}
+.header span{
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    float: right;
+    margin: 20px 20px 0 0;
+}
+
+
+
+
+.main-leftL{
+    margin:20px;
+    width:370px;
+    height:320px;
+    position:relative;
+}
+.main-rightL{
+    margin:20px;
+    width:244px;
+    height:350px;
+}
+.legendL{
+    margin-bottom:15px;
+    text-align: center;
+    font-size:20px;
+}
+.form-itemL{
+    margin:0 auto;
+    position:relative;
+    border-radius:6px;
+}
+
+.form-itemL input{
+    display:inline-block;
+    width:230px;
+    text-align:left;
+    line-height:34px;
+    padding-left:10px;
+    border-radius:6px;
+}
+#code{
+    margin:0 auto;
+    position:relative;
+    border-radius:6px;
+    margin-bottom:70px;
+}
+.code{
+    display:inline-block;
+    width:160px;
+    text-align:left;
+    line-height:34px;
+    padding-left:10px;
+    border-radius:6px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.verification{
+    position: absolute;
+    right:0;
+}
+
+.tipsL{
+    width:240px;
+    margin:2px auto;
+    line-height:28px;
+    height:28px;
+    color:red;
+    text-align:left;
+    font-size:12px;
+}
+.proL{
+    margin-bottom:25px;
+    font-size:13px;
+    width:244px;
+    text-align:left;
+}
+.form-itemL button{
+    display:inline-block;
+    width:244px;
+    line-height:30px;
+    border:0;
+    letter-spacing:20px;
+    font-size:20px;
+    border-radius:6px;
+}
+#login{
+    width:700px;
+    height:365px;
+    background-color:rgba(255, 255, 255, 0.80);
+    border-radius:20px;
+    margin:90px auto;
+    box-shadow: 5px 5px 20px darkslategray;
+}
+
+
+
+
+#register{
+    width:700px;
+    height:365px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius:20px;
+    margin:90px auto;
+    min-height: 365px;
+    box-shadow: 5px 5px 20px darkslategray;
+}
+.main-leftR{
+    width:320px;
+    height:295px;
+    position:relative;
+    min-height: 290px;
+}
+.main-rightR{
+    width:280px;
+    height:295px;
+    margin:auto 20px;
+}
+.legendR{
+    line-height:50px;
+    margin:20px;
+    text-align: center;
+    font-size:20px;
+}
+.form-itemR{
+    margin:0 auto;
+    position:relative;
+    border-radius: 6px;
+}
+.form-labelR{
+    width:60px;
+    display:inline-block;
+    text-align:left;
+}
+.form-itemR input{
+    display:inline-block;
+    width:200px;
+    text-align:left;
+    line-height:30px;
+    padding-left:10px;
+    border-radius: 6px;
+}
+.tipsR{
+    width:300px;
+    margin-left:85px;
+    line-height:28px;
+    height:24px;
+    text-align:left;
+    font-size:12px;
+}
+.proR{
+    margin:10px 0;
+    font-size:13px;
+    text-align:left;
+}
+.form-itemR button{
+    display:inline-block;
+    width:278px;
+    line-height:30px;
+    border:0;
+    letter-spacing:20px;
+    font-size:20px;
+    border-radius: 6px;
+}
+.photo{
+    width:120px;
+    height:142px;
+    text-align: center;
+    border-radius:50%;
+    border:2px solid #f7b28f;
+    display: block;
+    margin:10px auto;
+}
+.footer{
+    width:100%;
+    background-color: rgba(57, 101, 128, 0.96);
+    color:white;
+    font-size:15px;
+    text-align:center;
+    height:50px;
+    position:fixed;
+    bottom:0;
+}
+.foot{
+    margin-top:15px;
+}

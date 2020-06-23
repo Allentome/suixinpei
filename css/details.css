@@ -1,0 +1,181 @@
+article {
+   width: 100%;
+   min-width: 1024px;
+}
+.detail_box {
+    margin-top: 60px;
+    width: 1024px;
+    height: 500px;
+}
+.detail_show {
+    width: 410px;
+    height: 500px;
+    float: left;
+}
+.detail_ifo {
+    width: 614px;
+    height: 500px;
+    float: left;
+}
+.detail_name {
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.detail_type {
+    display: inline-block;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    color: white;
+}
+.detail_price {
+    height: 50px;
+    background-color: black;
+    /*border: 1px solid #d79906;*/
+    border: 1px solid white;
+    color: white;
+}
+.detail_price_left {
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+.detail_price_left span {
+    margin-left: 20px;
+}
+.detail_m {
+    width: 100%;
+    height: 25px;
+}
+.detail_m {
+    margin-left: 30px;
+}
+.detail_m span {
+    margin-left: 20px;
+}
+.detail_distribution {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.detail_size {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px 0 0 20px;
+    color: white;
+}
+.detail_size select{
+    width: 50px;
+    height: 35px;
+    float: left;
+    margin: 10px 0 0 30px;
+    padding: 0;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.detail_size option {
+
+}
+/*.detail_size span {*/
+    /*float: left;*/
+    /*background-color: black; */
+/*}*/
+/*.detail_size div {*/
+    /*float: left;*/
+    /*margin-left: 30px;*/
+/*}*/
+/*.detail_size div a span{*/
+    /*margin: 12px 10px 0 0;*/
+    /*width: 70px;*/
+    /*height: 35px;*/
+    /*border: 1px solid white;*/
+    /*line-height: 35px;*/
+    /*text-align: center;*/
+    /*background-color: black;*/
+    /*color: white;*/
+    /*float: left;*/
+/*}*/
+.detail_inventory {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px 0 0 20px;
+    color: white;
+}
+.detail_inventory span {
+    float: left;
+}
+.detail_inventory div {
+    float: left;
+}
+.detail_inventory div span {
+    width: 50px;
+    height: 35px;
+    border: 1px solid white;
+    margin: 10px 0 0 30px;
+    line-height: 35px;
+    text-align: center;
+    background-color: black;
+}
+.detail_amount {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px 0 0 20px;
+    color: white;
+}
+.detail_amount span {
+    float: left;
+}
+.detail_amount div {
+    float: left;
+    margin-left: 30px;
+}
+.detail_amount div a span {
+    margin: 12px 0 0 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    line-height: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    float: left;
+
+}
+.detail_btn input {
+    width: 120px;
+    height: 40px;
+    margin: 20px 0 0 20px;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+}
+.detail_btna {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+.detail_btnb {
+    color: white;
+    border: 1px solid white;
+    background: black;
+}
+.aaa {
+    border: 1px solid #d79906;
+}

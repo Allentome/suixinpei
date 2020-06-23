@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.container{
+    width:1024px;
+    margin:0 auto;
+    min-width: 1024px;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    visibility:hidden;
+    clear:both;
+}

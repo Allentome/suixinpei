@@ -1,0 +1,16 @@
+
+
+.moreloades{width: 1014px;height: auto;margin:0 auto;overflow: hidden;text-align: left;padding:5px;}
+.moreloades ul{overflow: hidden;}
+.moreloades ul li{background-color: white; width: 275px;height: 360px;margin:25px;float: left;overflow: hidden;border: 1px solid gainsboro;box-shadow:1px 1px 10px  gainsboro }
+.moreloades ul li img{width: 285px;height: 190px;margin: 50px 0 10px 0}
+
+.moreloades ul a{text-decoration: none;color: black}
+.moreloades .more{overflow: hidden;padding:10px;text-align: center;}
+.moreloades .more a{border:1px solid #333;display: block;width: 80px;padding:8px 0;color:#fff;margin:0 auto;background:#333;text-align:center;border-radius:3px;}
+.moreloades .more a:hover{text-decoration: none;background: black;color: white;
+    border: 1px solid #d79906;}
+
+.div21 h6{ color: black;display: inline-block;background-color:  gainsboro;float: right;margin: 5px 10px 0 0 }
+.moreloades ul li:hover{border: 1px solid #d79906 ;box-shadow:1px 1px 10px  #d79906}
+.div21{text-align: left;padding: 5px 25px  0 25px;}

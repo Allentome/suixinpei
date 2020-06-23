@@ -1,0 +1,113 @@
+.toTop {
+
+    bottom: 100px;
+    cursor: pointer;
+    height: 102px;
+    position: fixed;
+    right: 0;
+    width: 100px;
+}
+
+.float-right-t {
+    margin-left: 25px;
+}
+
+.ztg {
+    margin-left: 20px;
+    background-color: red;
+    width: 66px;
+    height: 30px;
+    font-size: 18px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: center;
+
+}
+
+.toTop a {
+    text-decoration: none;
+    color: black;
+}
+
+.gouwuche1 {
+    /*position: fixed;*/
+    z-index: 1;
+}
+
+/*.size {*/
+/*z-index: 1;*/
+/*margin-top: 300px;*/
+/*border-radius: 5px;*/
+/*}*/
+
+.size {
+    position: absolute !important;left: 0;bottom: 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    /*box-shadow: 0 0 5px #ccc;*/
+    position: relative;
+}
+
+
+
+/*.size select option {*/
+    /*font-size: 24px;*/
+/*}*/
+
+.z-index {
+    z-index: -1;
+
+}
+
+.pice1 {
+    font-size: 24px;
+    color: black;
+    font-family: bold;
+    float: right;
+}
+.pice {
+    font-size: 24px;
+    color: red;
+    font-family: bold;
+    float: right;
+}
+
+.yifubox {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+    left: 0px;
+    width: 960px;
+    min-width: 960px;
+    height: 350px;
+    overflow: hidden;
+    visibility: hidden;
+    background-color: #e6b9a2;
+}
+
+.shangyibox {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 290px;
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+}
+#dprocount{
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height:30px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: absolute;
+    left: 7px;
+    top:10px;
+    font-size: 25px;
+    color: white;
+}

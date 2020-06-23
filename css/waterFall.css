@@ -1,0 +1,22 @@
+
+.water {
+    height: 80px;
+    width: 1024px;
+
+}
+.water div {
+    float: left;
+    margin-left: 100px ;
+}
+.water-title {
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    font-size: 1.5em;
+}
+.water-line {
+    width: 200px;
+    height: 40px;
+    border-bottom: 1px solid white;
+}
+

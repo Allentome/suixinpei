@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    min-width: 1024px;
+    width: 100%;
+    height: 100%;
+    background:url("../img/background16.jpg")    !important;
+    /*background-repeat:no-repeat ;*/
+    background-size:cover !important;
+    font-size:16px !important;
+}
+a {text-decoration: none;}
+.container1{
+    width:1024px ;
+	margin: 0 auto ;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+/*导航*/
+.h-nav{
+
+    margin: 10px 0 0 0px;
+    width: 100%;
+   height: 40px;
+}
+.h-register{width: 100px;height: 17px;
+    text-decoration: none !important;
+    color:#ded6c7!important;
+}
+
+
+.h-register:hover {color: #b68c44!important;text-decoration: none!important;}
+
+
+.h-nav ul li {
+    list-style-type: none;
+    float: left;
+    width: 100px;height: 40px;
+  
+}
+.h-nav-bg{height: 40px;
+    background-color:black;
+    width: 100%;
+    min-width: 1024px;
+}
+.h-nav-a-bg:hover{border: 0;background-color: #d79906;text-decoration: none;!important;}
+.h-nav-a:visited {color: #ded6c7!important;text-decoration: none!important;}
+.h-nav-a:hover {color: #ded6c7!important;text-decoration: none!important;}
+.h-nav-a:active {color: #b68c44!important;text-decoration: none!important;}
+
+.h-nav-a {
+    text-decoration: none;
+    display: block;
+     /*border-right:1px white solid; */
+    width: 99px;
+    line-height: 20px;height: 20px;
+    margin-top:10px; 
+    text-align: center;
+    color: white;
+    font-fimily: 微软雅黑;
+}
+
+.logo-img{
+    margin: 5px 0 0 18px;
+    text-align: left;
+    width: 80px;height: 70px;
+    float: left;
+}
+.header{
+    height: 60px;width: 100%;min-width: 1024px;
+}
+/*搜索*/
+div.search {
+	padding:10px 0;
+   float: right;
+   margin: 15px 30px 0 0;
+}
+form {
+	position:relative;
+	/*width:300px;*/
+	margin:0 auto;
+}
+input,button {
+	border:none;
+
+}
+input {
+	width:100%;
+	height:30px;
+	padding-left:13px;
+}
+button {
+	height:30px;
+	width:42px;
+	cursor:pointer;
+	position:absolute;
+}
+.bar7 form {
+	height:30px;padding: 0 !important;
+}
+.bar7 input {
+	width:400px;
+	border-radius:42px;
+	/*border:1px solid #b68c44;*/
+	background:gainsboro;
+    opacity: 0.8;
+	transition:.3s linear;
+	float:right;
+}
+.bar7 input:focus {
+	width:450px;color: black;
+}
+.bar7 button {
+	background:none;
+	top:-2px;
+	right:20px;
+}
+.bar7 button:before {
+	content:"搜索";
+
+	color:white;
+}
+
+.header span{
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    float: right;
+    margin: 29px 20px 0 0;
+}
+
+/*二级导航*/
+.h-dropdown-a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    color: #ded6c7;
+    text-decoration: none;
+}
+
+
+
+
+.h-dropdown{
+    position: absolute;
+    top: 110px;
+    width: 100px;
+    text-align: center;
+    z-index: 99;
+    /*box-shadow: 0px 2px 2px #888;*/
+   display: none;
+
+}
+.h-dropdown div{
+    background-color: black;
+    height: 40px;
+    border-top:1px #d79906 solid;
+    opacity: 0.8;
+}
+.h-header-img{
+    width: 100%;
+
+    height: 500px;
+}
+.menuFocused{
+   color: #fc9f03 !important;
+    text-decoration: none !important;
+    /*background-color: #d79906;*/
+}
